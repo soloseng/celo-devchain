@@ -37,7 +37,7 @@ const program = commander_1.default.program
     .description("Start ganache-cli with all Celo core contracts deployed.")
     .option("-p --port <port>", "Port to listen on.", "7545")
     .option("--core <core>", "Core contracts version to use. Default is `latest`. " +
-    "Supports: v1, v2, v3, v4, v5", "v5")
+    "Supports: v1, v2, v3, v4, v5, v7", "v7")
     .option("-f --file <file>", "Path to custom core contracts build.")
     .option("--db <db>", "Path to store decompressed chain data.", undefined)
     .option("-t --test", "Run sanity tests and exit.")
