@@ -1,9 +1,9 @@
 {
-  "name": "@terminal-fi/celo-devchain",
-  "version": "4.0.1",
+  "name": "@soloseng/celo-devchain",
+  "version": "5.0.0",
   "description": "Ganache setup with core Celo contracts for local testing and development.",
   "repository": {
-    "url": "https://github.com/zviadm/celo-devchain"
+    "url": "https://github.com/soloseng/celo-devchain"
   },
   "scripts": {
     "build": "tsc -p .",
@@ -26,7 +26,7 @@
     "web3-core-helpers": "^1.3.6"
   },
   "dependencies": {
-    "@celo/contractkit": "^1.2.4",
+    "@celo/contractkit": "2.0.0",
     "@celo/ganache-cli": "git+https://github.com/celo-org/ganache-cli.git#e933297",
     "commander": "^6.2.0",
     "node-fetch": "^2.6.1",
